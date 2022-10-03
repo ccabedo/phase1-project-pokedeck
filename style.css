@@ -1,0 +1,51 @@
+
+#nav-bar {
+    background-color: green;
+    height: 50px;
+    width: 100%
+}
+#logo {
+    background-color: yellow;
+    margin-top: 0;
+    height: 100%;
+    width: 18%;
+}
+#container {
+    height: 750px;
+    background-color: purple;
+}
+#side-bar {
+    margin-top: 2%;
+    float: left;
+    background-color: pink;
+    height: 500px;
+    width: 20%;
+    margin-left: 10%
+}
+
+#card {
+    margin-top: 2%;
+    float: right;
+    background-color: brown;
+    height: 500px;
+    width: 50%;
+    margin-right: 10%;
+}
+
+#random-pokemon {
+    background-color: aqua;
+    margin-top: 465px;
+    height: 20%;
+
+}
+#form {
+    background-color: blueviolet;
+    margin-top: 500px;
+    height: 30%;
+}
+#random {
+    background-color: blue;
+}
+#submit {
+    background-color: pink;
+}
