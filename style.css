@@ -1,50 +1,61 @@
+/*
+color scheme::
+
+*/
 
 #nav-bar {
-    background-color: green;
+    background-color: black;
     height: 50px;
     width: 100%
 }
 #logo {
-    background-color: yellow;
+    background-color: black;
     margin-top: 0;
     height: 100%;
     width: 18%;
 }
 #container {
     height: 750px;
-    background-color: purple;
+    background-color: white;
+    
 }
 #side-bar {
     margin-top: 2%;
     float: left;
-    background-color: pink;
+    background-color: gray;
     height: 500px;
     width: 20%;
-    margin-left: 10%
+    margin-left: 10%;
+    border-radius: 10%;
 }
 
 #card {
     margin-top: 2%;
     float: right;
-    background-color: brown;
+    background-color: yellow;
     height: 500px;
     width: 50%;
     margin-right: 10%;
+    border-radius: 10%;
 }
 
 #random-pokemon {
-    background-color: aqua;
+    background-color: yellow;
     margin-top: 465px;
     height: 20%;
+    border-radius: 20%;
 
 }
 #form {
-    background-color: blueviolet;
+    background-color: gray;
     margin-top: 500px;
     height: 30%;
+    border-radius: 20%;
 }
 #random {
-    background-color: blue;
+    background-color: maroon;
+    border-radius: 2px;
+    color: white;
 }
 #submit {
     background-color: pink;
