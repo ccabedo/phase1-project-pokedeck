@@ -31,6 +31,15 @@ renderData = (eachPokemon) => {
             const liCommentList = document.createElement("li")
             formDiv.append(ulComment, liCommentList)
             liCommentList.innerText = eachPokemon.comment
+
+        formDiv.addEventListener("submit", e => {
+            e.preventDefault()
+            console.log(e)
+
+            // const commentValue = document.querySelector("#comment")
+            // formDiv.innerText = commentValue.value
+
+
+        })
         })
     }
-
