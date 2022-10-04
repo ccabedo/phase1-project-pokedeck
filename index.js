@@ -33,4 +33,5 @@ renderData = (eachPokemon) => {
             liCommentList.innerText = eachPokemon.comment
         })
     }
+    haha
 
