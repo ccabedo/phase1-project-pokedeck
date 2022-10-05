@@ -1,0 +1,79 @@
+{
+    "new_pokemon": [
+      {
+        "id": "1",
+      "name": "Venusaur",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/fda1f187fc7ee8acb5c42adfd0f4b04aa1dec107381a15f7c6be4839038f5264/240.jpg",
+      "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+      "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
+    },
+    {
+        "id": 2,
+        "name": "Charmeleon",
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2f1db3537bf26b9b903e1156dc6ee8e41f32a9b9f80d1878dc39ab9105fb377c/240.jpg",
+        "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
+      },
+      {
+        "id": 3,
+        "name": "Charizard",
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/0aafce2658aa1583d864d9ee71c1e9eb607560745be990a8fb4796c3d56ca0d6/240.jpg",
+        "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
+      },
+      {
+        "id": 4,
+        "name": "Wartortle",
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/c11068ed33573cacce2bf8401ec23f43a46d410181cde9b44557862fd2c740d4/240.jpg",
+        "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+        "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      },
+      {
+        "id": 5,
+        "name": "Blastoise",
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2bd5bcf34285cdf4c551f913a87e29d47c3e3117868eb2698ea197d041238ee5/240.jpg",
+        "description": "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.",
+        "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      },
+      {
+        "id": "6",
+        "name": "Nidoqueen",
+        "dex-number": 31,
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/bd72f511c7de436343d4c0d6bcf0acdae1764bccb60d2b8de5b956c32655eaf3/240.jpg",
+        "description":"Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+        "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
+      },
+      {
+        "id": "7",
+        "name": "Clefairy",
+        "dex-number": 35,
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/a4d79c2e15d6efd2d435d01d56d703a7c17442a2c7fb95d3b87dfe3e6b54d19a/240.jpg",
+        "description":"Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+        "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      },
+      {
+        "id": "8",
+        "name": "Nidoking",
+        "dex-number": 34,
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/48d1ea2fc028d697fa0c01836d61bac540cca7b78a5463243b30f3a81e1d5c45/240.jpg",
+        "description":"It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+        "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
+      },
+      {
+        "id": "9",
+        "name": "Alakazam",
+        "dex-number": 65,
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/e5a4b4bde6d37e97152604cc39c411cc1eafed2eb4ffd6fcaa62aa122b856116/240.jpg",
+        "description":"Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
+        "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
+      },
+      {
+        "id": "10",
+        "name": "Tentacruel",
+        "dex-number": 73,
+        "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/05d45ad64e70061abe2fe0f7dce89f646448d05e301244c4f5623637cc0f1878/240.jpg",
+        "description":"The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+        "weakness": "https://ih1.redbubble.net/image.402376779.5395/fposter,small,wall_texture,product,750x1000.jpg"
+      }
+    ]
+}

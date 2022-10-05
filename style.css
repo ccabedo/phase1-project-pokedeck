@@ -1,47 +1,19 @@
-#nav-bar {
-    background-color: rgb(251 27 27);
+#header {
+    background-color: #0A285F;
+    height: 100px;
+}
+
+#top-between{
+>>>>>>> origin/main
     height: 50px;
-    width: 100%;
 }
-#logo {
-    background-color: black;
-    margin-top: 0;
-    height: 100%;
-    width: 18%;
-}
-#container {
-    height: 1000px;
+
+#top-row {
     background-color: white;
-    
-}
-#side-bar {
-    margin-top: 2%;
-    float: left;
-    background-color: gray;
-    height: 500px;
-    width: 20%;
-    margin-left: 10%;
-    border-radius: 10%;
-    font-size: 18px;
-}
-
-#card {
-    margin-top: 2%;
-    float: right;
-    background-color: yellow;
-    height: 500px;
-    width: 50%;
-    margin-right: 10%;
-    border-radius: 10%;
-}
-
-#random-pokemon {
-    background-color: yellow;
-    margin-top: 100px;
-    height: 20%;
-    border-radius: 20%;
+    height: 600px;
 
 }
+<<<<<<< HEAD
 #form {
     align-items: center;
     background-color: gray;
@@ -61,17 +33,43 @@
 
 #character-name {
     background-color: blue;
+=======
+
+#side-nav {
+    background-color: #0075BE;
+}
+
+#card-nav {
+    background-color: #D5A100;
+}
+
+#middle-between {
+    height: 50px;
+}
+#bottom-row {
+    background-color: white;
+    height: 200px;
+}
+
+#button-nav {
+    background-color: #0075BE;
+}
+
+#form-nav {
+    background-color: #D5A100;
+}
+
+#bottom-between {
+    background-color: white;
+>>>>>>> origin/main
     height: 50px
 }
+#footer {
+    background-color: #0A285F;
+    height: 100px
 
-#image {
-    background-color: aqua;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 60%
 }
 
-#description {
-    background-color: beige;
-    height: 100px
+.image-container {
+    background-color: white;
 }

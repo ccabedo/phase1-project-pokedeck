@@ -1,155 +1,240 @@
 {
+<<<<<<< HEAD
   "pokemon": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Pikachu",
       "img": "https://product-images.tcgplayer.com/42402.jpg",
       "description": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
-      "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png",
-      "comment": "checking",
-      "background": "https://tinyurl.com/5n8bvnmu"
+      "comment": "checking"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Bulbasaur",
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/a026c0bbd1a5e0080d5aa87165a70d339c0b46c9bca81af1dfb7ee8190ca4ab2/240.jpg",
       "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
-      "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
+      "comment": "checking"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ivysaur",
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2c1d0d159faba5537c72ae3e0377b9615c84b84e9bcb148859d6746866943f7c/240.jpg",
       "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
-      "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
+      "comment": "checking"
     },
     {
-      "id": 4,
-      "name": "Venusaur",
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/fda1f187fc7ee8acb5c42adfd0f4b04aa1dec107381a15f7c6be4839038f5264/240.jpg",
-      "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
-      "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
-    },
-    {
-      "id": 5,
+      "id": "4",
       "name": "Charmander",
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/9efe5f18835ea90162bea93ace5b602f7f534bd174f8e1210ed13d410df48e05/240.jpg",
       "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
-      "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
+      "comment": "checking"
     },
     {
-      "id": 6,
-      "name": "Charmeleon",
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2f1db3537bf26b9b903e1156dc6ee8e41f32a9b9f80d1878dc39ab9105fb377c/240.jpg",
-      "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
-      "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
-    },
-    {
-      "id": 7,
-      "name": "Charizard",
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/0aafce2658aa1583d864d9ee71c1e9eb607560745be990a8fb4796c3d56ca0d6/240.jpg",
-      "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
-      "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
-    },
-    {
-      "id": 8,
+      "id": "5",
       "name": "Squirtle",
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/39d35e6644805b2c472a717090e51f7edd90ab18d9a3fbed6cdcecd7cc7738fb/240.jpg",
       "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
-      "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      "comment": "checking"
     },
     {
-      "id": 9,
-      "name": "Wartortle",
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/c11068ed33573cacce2bf8401ec23f43a46d410181cde9b44557862fd2c740d4/240.jpg",
-      "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
-      "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
-    },
-    {
-      "id": 10,
-      "name": "Blastoise",
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2bd5bcf34285cdf4c551f913a87e29d47c3e3117868eb2698ea197d041238ee5/240.jpg",
-      "description": "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.",
-      "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
-    },
-    {
-      "id": "11",
+      "id": "6",
       "name": "Eevee",
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/81475e50ed43965f6615bdde286fb8669413c8296c97f55bd2e1070c6a2df5bf/240.jpg",
       "description":"Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
-      "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      "comment": "checking"
     },
     {
-      "id": "12",
+      "id": "7",
       "name": "Cool Porygon",
-      "dex-number": 137,
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2d0274658f500157712132a4b73bb54b0a6aed468a65ca791bb3dea2bc9875b2/240.jpg",
       "description":"A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
-      "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      "comment": "checking"
     },
     {
-      "id": "13",
+      "id": "8",
       "name": "Ditto",
-      "dex-number": 132,
       "img": "https://files.slack.com/files-pri/T02MD9XTF-F044QR7EZC6/image.png",
       "description":"Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
-      "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      "comment": "checking"
     },
     {
-      "id": "14",
+      "id": "9",
       "name": "Sandslash",
-      "dex-number": 28,
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/7fd75ab93057c6c20299848e8ff3b12a0ab9ffa7554b716d228532f832baede8/240.jpg",
       "description":"Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
-      "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      "comment": "checking"
     },
     {
-      "id": "15",
+      "id": "10",
       "name": "Zapdos",
-      "dex-number": 145,
       "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/c388565e600c3b2ec228f4807dcc452964b1ef398720273c7f2203e1d92da2e3/240.jpg",
       "description":"A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
-      "weakness": "Null"
-    },
-    {
-      "id": "16",
-      "name": "Clefairy",
-      "dex-number": 35,
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/a4d79c2e15d6efd2d435d01d56d703a7c17442a2c7fb95d3b87dfe3e6b54d19a/240.jpg",
-      "description":"Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
-      "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
-    },
-    {
-      "id": "17",
-      "name": "Nidoking",
-      "dex-number": 34,
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/48d1ea2fc028d697fa0c01836d61bac540cca7b78a5463243b30f3a81e1d5c45/240.jpg",
-      "description":"It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
-      "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
-    },
-    {
-      "id": "18",
-      "name": "Nidoqueen",
-      "dex-number": 31,
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/bd72f511c7de436343d4c0d6bcf0acdae1764bccb60d2b8de5b956c32655eaf3/240.jpg",
-      "description":"Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
-      "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
-    },
-    {
-      "id": "19",
-      "name": "Alakazam",
-      "dex-number": 65,
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/e5a4b4bde6d37e97152604cc39c411cc1eafed2eb4ffd6fcaa62aa122b856116/240.jpg",
-      "description":"Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
-      "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
-    },
-    {
-      "id": "20",
-      "name": "Tentacruel",
-      "dex-number": 73,
-      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/05d45ad64e70061abe2fe0f7dce89f646448d05e301244c4f5623637cc0f1878/240.jpg",
-      "description":"The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
-      "weakness": "https://ih1.redbubble.net/image.402376779.5395/fposter,small,wall_texture,product,750x1000.jpg"
+      "comment": "checking"
     }
   ]
 }
+=======
+    "pokemon": [
+      {
+        "id": 1,
+        "name": "Pikachu",
+        "dex-number": 25,
+        "img": "https://product-images.tcgplayer.com/42402.jpg",
+        "description": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+        "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      },
+      {
+        "id": 2,
+        "name": "Bulbasaur",
+        "dex-number": 1,
+        "img": "https://upload.wikimedia.org/wikibooks/en/7/7d/Bulbasaur_RB.jpg",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
+      },
+      {
+        "id": 3,
+        "name": "Ivysaur",
+        "dex-number": 2,
+        "img": "https://static.wikia.nocookie.net/adventures-of-jairex-and-tirzah-rose/images/d/d4/Ivysaur.jpeg",
+        "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+        "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
+      },
+      {
+        "id": 4,
+        "name": "Venusaur",
+        "dex-number": 3,
+        "img": "https://bleedingcool.com/wp-content/uploads/2020/07/Base-Set-Venusaur-art-ptcg-1200x900.jpg",
+        "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "weakness": "https://www.clipartmax.com/png/middle/83-830894_fire-type-pokemon-symbol-pokemon-fire-type-logo.png"
+      },
+      {
+        "id": 5,
+        "name": "Charmander",
+        "dex-number": 4,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-switch/f/f2/Charmander.jpg",
+        "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+        "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
+      },
+      {
+        "id": 6,
+        "name": "Charmeleon",
+        "dex-number": 5,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-switch/4/4b/Charmeleon.jpg",
+        "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
+      },
+      {
+        "id": 7,
+        "name": "Charizard",
+        "dex-number": 6,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-switch/6/69/Charizard.jpg",
+        "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "weakness": "https://www.clipartmax.com/png/middle/26-261578_pokemon-water-type-symbol.png"
+      },
+      {
+        "id": 8,
+        "name": "Squirtle",
+        "dex-number": 7,
+        "img": "https://tinyurl.com/27zb9xtv",
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      },
+      {
+        "id": 9,
+        "name": "Wartortle",
+        "dex-number": 8,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-x-y-version/b/b7/Wartortle.jpg?width=325",
+        "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+        "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      },
+      {
+        "id": 10,
+        "name": "Blastoise",
+        "dex-number": 9,
+        "img": "image.png",
+        "description": "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.",
+        "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      },
+      {
+        "id": "14",
+        "name": "Sandslash",
+        "dex-number": 28,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-omega-ruby-and-alpha-sapphire/4/42/Sandslash.jpg",
+        "description":"Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+        "weakness": "https://static.wikia.nocookie.net/pokemonenglish/images/c/cf/Grass-type-symbol-Pokemon-tcg.png/revision/latest?cb=20140707224510"
+      },
+      {
+        "id": "18",
+        "name": "Nidoqueen",
+        "dex-number": 31,
+        "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
+        "description":"Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+        "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
+      },
+      {
+        "id": "17",
+        "name": "Nidoking",
+        "dex-number": 34,
+        "img": "https://archives.bulbagarden.net/media/upload/c/c6/034Nidoking.png",
+        "description":"It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+        "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
+      },
+      {
+        "id": "16",
+        "name": "Clefairy",
+        "dex-number": 35,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-lets-go-pikachu-eevee/b/b1/Clefairy.jpg",
+        "description":"Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+        "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      },
+      {
+        "id": "19",
+        "name": "Alakazam",
+        "dex-number": 65,
+        "img": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-lets-go-pikachu-eevee/9/95/Alakazam.jpg",
+        "description":"Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
+        "weakness": "https://p.kindpng.com/picc/s/316-3164373_pokemon-psychic-symbol-hd-png-download.png"
+      },
+      {
+        "id": "20",
+        "name": "Tentacruel",
+        "dex-number": 73,
+        "img": "https://img.pokemondb.net/artwork/large/tentacruel.jpg",
+        "description":"The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+        "weakness": "https://ih1.redbubble.net/image.402376779.5395/fposter,small,wall_texture,product,750x1000.jpg"
+      },
+      {
+        "id": "13",
+        "name": "Ditto",
+        "dex-number": 132,
+        "img": "https://files.slack.com/files-pri/T02MD9XTF-F044QR7EZC6/image.png",
+        "description":"Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+        "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      },
+      {
+        "id": "11",
+        "name": "Eevee",
+        "dex-number": 133,
+        "img": "https://tinyurl.com/2zkhpfc8",
+        "description":"Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
+        "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      },
+      {
+        "id": "12",
+        "name": "Cool Porygon",
+        "dex-number": 137,
+        "img": "https://cdn.donmai.us/original/04/23/0423d70fe10efcaff12c9a884b4d8f63.jpg",
+        "description":"A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+        "weakness": "https://www.clipartmax.com/png/middle/322-3228840_pokemon-type-symbols-download-pokemon-fighting-type-png.png"
+      },
+      {
+        "id": "15",
+        "name": "Zapdos",
+        "dex-number": 145,
+        "img": "https://static.wikia.nocookie.net/pokemon-_gotta_catch_them_all/images/8/82/Zapdos.jpg/revision/latest?cb=20200503003013",
+        "description":"A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+        "weakness": "Null"
+      }
+    ]
+  }
+>>>>>>> 3d36076603107d7bddcc5160d532953a3d73e225
