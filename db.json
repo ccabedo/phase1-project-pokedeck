@@ -1,4 +1,79 @@
 {
+<<<<<<< HEAD
+  "pokemon": [
+    {
+      "id": "1",
+      "name": "Pikachu",
+      "img": "https://product-images.tcgplayer.com/42402.jpg",
+      "description": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+      "comment": "checking"
+    },
+    {
+      "id": "2",
+      "name": "Bulbasaur",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/a026c0bbd1a5e0080d5aa87165a70d339c0b46c9bca81af1dfb7ee8190ca4ab2/240.jpg",
+      "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+      "comment": "checking"
+    },
+    {
+      "id": "3",
+      "name": "Ivysaur",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2c1d0d159faba5537c72ae3e0377b9615c84b84e9bcb148859d6746866943f7c/240.jpg",
+      "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+      "comment": "checking"
+    },
+    {
+      "id": "4",
+      "name": "Charmander",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/9efe5f18835ea90162bea93ace5b602f7f534bd174f8e1210ed13d410df48e05/240.jpg",
+      "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+      "comment": "checking"
+    },
+    {
+      "id": "5",
+      "name": "Squirtle",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/39d35e6644805b2c472a717090e51f7edd90ab18d9a3fbed6cdcecd7cc7738fb/240.jpg",
+      "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+      "comment": "checking"
+    },
+    {
+      "id": "6",
+      "name": "Eevee",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/81475e50ed43965f6615bdde286fb8669413c8296c97f55bd2e1070c6a2df5bf/240.jpg",
+      "description":"Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
+      "comment": "checking"
+    },
+    {
+      "id": "7",
+      "name": "Cool Porygon",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/2d0274658f500157712132a4b73bb54b0a6aed468a65ca791bb3dea2bc9875b2/240.jpg",
+      "description":"A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+      "comment": "checking"
+    },
+    {
+      "id": "8",
+      "name": "Ditto",
+      "img": "https://files.slack.com/files-pri/T02MD9XTF-F044QR7EZC6/image.png",
+      "description":"Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+      "comment": "checking"
+    },
+    {
+      "id": "9",
+      "name": "Sandslash",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/7fd75ab93057c6c20299848e8ff3b12a0ab9ffa7554b716d228532f832baede8/240.jpg",
+      "description":"Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+      "comment": "checking"
+    },
+    {
+      "id": "10",
+      "name": "Zapdos",
+      "img": "https://commondatastorage.googleapis.com/images.pricecharting.com/c388565e600c3b2ec228f4807dcc452964b1ef398720273c7f2203e1d92da2e3/240.jpg",
+      "description":"A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+      "comment": "checking"
+    }
+  ]
+}
+=======
     "pokemon": [
       {
         "id": 1,
@@ -162,3 +237,4 @@
       }
     ]
   }
+>>>>>>> 3d36076603107d7bddcc5160d532953a3d73e225
