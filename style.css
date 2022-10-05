@@ -1,5 +1,5 @@
 #header {
-    background-color: black;
+    background-color: #0A285F;
     height: 100px;
 }
 
@@ -9,34 +9,44 @@
 
 #top-row {
     background-color: white;
-    height: 500px
+    height: 600px;
 
 }
 
 #side-nav {
-    background-color: brown;
+    background-color: #0075BE;
 }
 
 #card-nav {
-    background-color: green;
+    background-color: #D5A100;
 }
 
 #middle-between {
-    
+    height: 50px;
 }
 #bottom-row {
-    background-color: aqua;
+    background-color: white;
+    height: 200px;
 }
 
 #button-nav {
-    background-color: pink;
+    background-color: #0075BE;
 }
 
 #form-nav {
-    background-color: indigo;
+    background-color: #D5A100;
 }
 
+#bottom-between {
+    background-color: white;
+    height: 50px
+}
 #footer {
-    background-color: black;
+    background-color: #0A285F;
+    height: 100px
 
+}
+
+.image-container {
+    background-color: white;
 }
