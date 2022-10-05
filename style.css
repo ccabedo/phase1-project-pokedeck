@@ -1,5 +1,5 @@
 #nav-bar {
-    background-color: black;
+    background-color: rgb(251 27 27);
     height: 50px;
     width: 100%;
 }
@@ -43,6 +43,7 @@
 
 }
 #form {
+    align-items: center;
     background-color: gray;
     margin-top: 75px;
     height: 400px;
@@ -57,7 +58,7 @@
     background-color: pink;
 }
 
-<<<<<<< HEAD
+
 #character-name {
     background-color: blue;
     height: 50px
