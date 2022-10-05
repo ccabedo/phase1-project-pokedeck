@@ -1,36 +1,39 @@
-// const url = "http://localhost:3000/pokemon"
+const url = "http://localhost:3000/pokemon"
 
-// fetch(url)
-// .then(res => res.json())
-// .then(data => data.forEach(el => renderData(el)))
+fetch(url)
+.then(res => res.json())
+.then(data => data.forEach(el => renderData(el)))
 
-// function renderData (pokemon) {
-//     const ul = document.querySelector("#pokemon-list")
-//     const li = document.createElement("li")
-//     li.innerText = pokemon.name
-//     ul.append(li)
-//     li.addEventListener("click", () => displayPokemon())
-// }
+const renderData = (pokemon) => {
+    const ul = document.querySelector("#pokemon-list")
+    const li = document.createElement("li")
+    li.innerText = pokemon.name
+    ul.append(li)
+    li.addEventListener("click", () => showPokemon(pokemon))
+}
 
-// function displayPokemon(details){
-//     const characterName = document.querySelector("#character-name")
-//     characterName.innerText = details.name
 
-//     const imageDiv = document.querySelector("#image")
-//     const image = document.createElement("img")
-//     image.src = details.img
-//     imageDiv.append(image)
+function showPokemon(param){
+    const name = document.querySelector("#pokemon-name")
+    name.innerText = param.name
 
-//     const descriptionDiv = document.querySelector("#description")
-//     const pTag = document.createElement("p")
-//     pTag.innerText = details.description
-//     descriptionDiv.append(pTag)
+    const imageContainer = document.querySelector(".image-container")
+    const image = document.createElement("img")
+    imageContainer.append(image)
+    image.src = param.img
 
-//     const formDiv = document.querySelector("#form")
-//     const ulComment = document.createElement("ul")
-//     const liCommentList = document.createElement("li")
-//     formDiv.append(ulComment, liCommentList)
-//     liCommentList.innerText = details.comment
-// }
+    const description = document.querySelector("#description")
+    description.innerText = param.description
 
-// displayPokemon()
+    const comment = document.querySelector("#comment-list")
+    comment.innerText = param.comment
+
+    const form = document.querySelector(".input-group")
+    form.addEventListener("submit", () => addComment())
+}
+
+function addComment(comment) {
+    const inputValue = document.querySelector("#input-value")
+    comment.innerText = inputValue.value
+}
+

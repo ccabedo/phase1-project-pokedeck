@@ -12,7 +12,7 @@
   <body>
 
     <div class="container">
-      <div class="row" id="header">header</div>
+      <div class="row" id="header"></div>
     </div>
 
     <div class="container">
@@ -23,10 +23,7 @@
       <div class="row" id="top-row">
         <div class="col-1" id="col-top-1"></div>
         <div class="col-3" id="side-nav">
-          <ul id="pokemon-list">Pokemon List:
-            <li id="pokemon-name-list">Pokemon
-            </li>
-          </ul>
+          <ul id="pokemon-list">Pokemon List:</ul>
         </div>
         <div class="col-1" id="col-top-2"></div>
         <div class="col-6" id="card-nav">
@@ -48,14 +45,15 @@
       <div class="row" id="bottom-row">
         <div class="col-1"></div>
         <div class="col-3" id="button-nav">
-          
-          <button type="button" class="btn btn-light">Random Pokemon</button>
+          <p id="choose-text">Choose a random Pokemon!</p>
+          <button type="button" class="btn btn-light">Click Me</button>
         </div>
         <div class="col-1"></div>
         <div class="col-6" id="form-nav">
-          <p id ="comment-text">Comment: </p>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Comment" aria-label="Comment" aria-describedby="basic-addon2">
+          <p id ="comment-text">Comment:</p>
+          <li id ="comment-list"></li>
+          <div class="input-group">
+            <input id="input-value" placeholder="Comment" aria-label="Comment" aria-describedby="basic-addon2">
             <div class="input-group-append">
               <button class="btn btn-outline-secondary" type="button">Submit</button>
             </div>
