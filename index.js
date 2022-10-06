@@ -16,6 +16,7 @@ const imageContainer = document.querySelector(".image-container")
 const image = document.createElement("img")
 imageContainer.append(image)
 
+
 function showPokemon(param){
     const name = document.querySelector("#pokemon-name")
     name.innerText = param.name
@@ -24,16 +25,16 @@ function showPokemon(param){
 
     const description = document.querySelector("#description")
     description.innerText = param.description
-
+    
     const comment = document.querySelector("#comment-list")
     comment.innerText = param.comment
 
     const form = document.querySelector(".input-group")
-    form.addEventListener("submit", () => addComment())
-}
+    form.addEventListener("submit", e => {
+        e.preventDefault()
+        console.log(e)
 
-function addComment(comment) {
-    const inputValue = document.querySelector("#input-value")
-    comment.innerText = inputValue.value
-}
+        const input = document.querySelector("#input-value").value
+        comment.innerText = input
 
+    })}
