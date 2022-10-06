@@ -34,18 +34,31 @@ function showPokemon(param){
         e.preventDefault()
         console.log(e)
 
-        const input = document.querySelector("#input-value").value
-        comment.innerText = input
+        const commentUl = document.querySelector("#comment-ul")
+        const communtli = document.createElement("li")
+        commentUl.append(communtli)
+
+        communtli.innerText = document.querySelector("#input-value").value
     
     })
     }
 
 
-// const button = document.querySelector("#click")
-// button.addEventListener("click", () => randomPokemon (random))
+const button = document.querySelector("#click")
+button.addEventListener("click", randomPokemon)
 
-// function randomPokemon(random){
-//     random.Math.random()
+function randomPokemon(){
+    const index = Math.floor(10*Math.random());
+    fetch(url).then(res => res.json())
+    .then(data => {
 
-// }
-// function Math. random()
+        const name = document.querySelector("#pokemon-name")
+        name.innerText = data[index].name
+
+        image.src = data[index].img
+
+        const description = document.querySelector("#description")
+        description.innerText = data[index].description
+        
+    })
+}
