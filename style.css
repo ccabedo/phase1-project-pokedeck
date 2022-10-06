@@ -1,11 +1,20 @@
+body {
+    background-image: url("https://www.wallpapertip.com/wmimgs/81-814414_gotta-catch-em-all-649-pokemon-poster-by.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
 #header {
-    background-color: #0A285F;
-    height: 100px;
+    background-color: RGB(251 27 27);
+    height: 80px;
 }
 
 #top-between{
->>>>>>> origin/main
-    height: 50px;
+    height: 100px;
 }
 
 #top-row {
@@ -13,27 +22,6 @@
     height: 600px;
 
 }
-<<<<<<< HEAD
-#form {
-    align-items: center;
-    background-color: gray;
-    margin-top: 75px;
-    height: 400px;
-    border-radius: 20%;
-}
-#random {
-    background-color: maroon;
-    border-radius: 2px;
-    color: white;
-}
-#submit {
-    background-color: pink;
-}
-
-
-#character-name {
-    background-color: blue;
-=======
 
 #side-nav {
     background-color: #0075BE;
@@ -44,7 +32,7 @@
 }
 
 #middle-between {
-    height: 50px;
+    height: 100px;
 }
 #bottom-row {
     background-color: white;
@@ -60,16 +48,40 @@
 }
 
 #bottom-between {
-    background-color: white;
->>>>>>> origin/main
+    background-color: :
     height: 50px
 }
 #footer {
     background-color: #0A285F;
-    height: 100px
+    height: 80px
 
 }
 
-.image-container {
+#img-container {
     background-color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAEL-0ANMc1Fe2dubmPIt3mcnoOHE1RnSVA&usqp=CAU");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+button {
+    cursor: pointer;
+}
+
+#col-top-1 {
+    background: transparent;
+}
+
+#col-top-3 {
+    background-color: transparent;
+}
+
+#col-top-2 {
+    background-color: transparent;
+}
+
+#submitbutton {
+    color: white;
+    background-color: black;
 }
