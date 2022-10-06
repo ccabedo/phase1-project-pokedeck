@@ -36,5 +36,16 @@ function showPokemon(param){
 
         const input = document.querySelector("#input-value").value
         comment.innerText = input
+    
+    })
+    }
 
-    })}
+
+// const button = document.querySelector("#click")
+// button.addEventListener("click", () => randomPokemon (random))
+
+// function randomPokemon(random){
+//     random.Math.random()
+
+// }
+// function Math. random()
