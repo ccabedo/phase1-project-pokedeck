@@ -12,14 +12,14 @@ const renderData = (pokemon) => {
     li.addEventListener("click", () => showPokemon(pokemon))
 }
 
+const imageContainer = document.querySelector(".image-container")
+const image = document.createElement("img")
+imageContainer.append(image)
 
 function showPokemon(param){
     const name = document.querySelector("#pokemon-name")
     name.innerText = param.name
 
-    const imageContainer = document.querySelector(".image-container")
-    const image = document.createElement("img")
-    imageContainer.append(image)
     image.src = param.img
 
     const description = document.querySelector("#description")
