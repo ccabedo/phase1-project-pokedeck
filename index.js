@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", () => {
+    let title = document.querySelector("#header.row")
+    title.innerText = "Pokédeck"
+ 
+
 const url = "http://localhost:3000/pokemon"
 
 fetch(url)
@@ -57,13 +62,15 @@ function randomPokemon(){
     fetch(url).then(res => res.json())
     .then(data => {
 
-        const name = document.querySelector("#pokemon-name")
-        name.innerText = data[index].name
+        // const name = document.querySelector("#pokemon-name")
+        // name.innerText = data[index].name
 
-        image.src = data[index].img
+        // image.src = data[index].img
 
-        const description = document.querySelector("#description")
-        description.innerText = data[index].description
+        // const description = document.querySelector("#description")
+        // description.innerText = data[index].description
+        showPokemon(data[index])
+
         
     })
 }
@@ -83,3 +90,5 @@ function randomPokemon(){
 //     .then(res => res.json())
 //     .then(console.log)
 // }
+
+})
