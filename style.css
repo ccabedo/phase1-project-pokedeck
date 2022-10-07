@@ -1,10 +1,25 @@
+body {
+    background-image: url("https://www.wallpapertip.com/wmimgs/81-814414_gotta-catch-em-all-649-pokemon-poster-by.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 #header {
-    background-color: #0A285F;
-    height: 100px;
-    color:#D5A100;
+    background-color: rgb(251,27,27);
+    height: 80px;
+    color:black;
     font-size: 50px;
     font-weight:bold;
-    font-family: sans-serif
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#middle-row {
+    color:transparent;
+}
+
+#header.row{
+    align-content: center;
 }
 
 #top-between{
@@ -18,62 +33,120 @@
 }
 
 #side-nav {
-    background-color: #0075BE;
-    color:#D5A100;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
     font-size: 20px;
     font-weight: 600;
-    font-family: sans-serif
+    font-family: sans-serif;
+    line-height: 70px;   
 }
 
 #card-nav {
-    background-color: #D5A100;
+    border-radius: 25px;
+    background-color: rgb(145,145,145);
     font-size: larger;
     font-family: sans-serif;
     font-weight: 600;
+    color: black;
 
+}
+
+li {
+    cursor: pointer;
 }
 
 #middle-between {
-    height: 50px;
+    height: 100px;
 }
 #bottom-row {
-    background-color: white;
-    height: 400px;
+    background-color: transparent;
+    height: 200px;
 }
 
 #button-nav {
-    background-color: #0075BE;
+    border-radius: 20px;
+    background-color: black;
     font-size: large;
     font-family: sans-serif;
     font-weight: 600;
     text-align: center;
-    
-
+    color: white;
 }
 
 #form-nav {
-    background-color: #D5A100;
-    font-size: large;
+    border-radius: 20px;
+    background-color: rgb(145,145,145);
+    justify-content: center;
+    font-weight: bold;
     font-family: sans-serif;
-    font-weight: 600;
+    color: black;
+    font-size: large
+}
+
+#click{
+    margin: 50px;
+    position: relative;
+    font-size: 30px;
+    border-radius: 10%;
+    color: black;
+    background-color: white;
+}
+
+#click:hover{
+    background-color: rgb(145,145,145);
+}
+
+#click:active {
+    background-color: rgb(230,188,47);
+    transform: translateY(2px);
 }
 
 #bottom-between {
-    background-color: white;
     height: 50px
 }
 #footer {
-    background-color: #0A285F;
-    height: 100px
-
+    background-color: rgb(251,27,27);
+    height: 80px;
 }
 
 .image-container {
     background-color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAEL-0ANMc1Fe2dubmPIt3mcnoOHE1RnSVA&usqp=CAU");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
     height: 500px;
     text-align: center;
+}
 
 .input-group {
-    margin-top: 80px;
-    margin-left: 60%
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+}
+
+#button {
+    border-radius: 10%;
+    color: white;
+    background-color: black; 
+    font-size: large;
+}
+
+#button:hover {
+    background-color: rgb(145,145,145);
+    color: black;
+}
+
+#button:active {
+    background-color: rgb(230,188,47);
+}
+
+#top-row {
+    background-color: transparent;
 }
