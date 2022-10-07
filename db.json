@@ -5,70 +5,90 @@
       "name": "Pikachu",
       "img": "/sources/pikachu.jpg",
       "description": "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
-      "comment": "Pika Pika!"
+      "comment": [
+        "Pika Pika!"
+      ]
     },
     {
       "id": "2",
       "name": "Bulbasaur",
       "img": "/sources/bulbasaur.jpg",
       "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
-      "comment": "Grass type pokemon"
+      "comment": [
+        "Grass type pokemon"
+      ]
     },
     {
       "id": "3",
       "name": "Ivysaur",
       "img": "/sources/ivysaur.jpg",
       "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
-      "comment": "Bulasaur's second evolution"
+      "comment": [
+        "Bulasaur's second evolution"
+      ]
     },
     {
       "id": "4",
       "name": "Charmander",
       "img": "/sources/charmander.jpg",
       "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
-      "comment": "my favorite pokemon"
+      "comment": [
+        "my favorite pokemon"
+      ]
     },
     {
       "id": "5",
       "name": "Squirtle",
       "img": "/sources/squirtle.jpg",
       "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
-      "comment": "I'm a water turtle"
+      "comment": [
+        "I'm a water turtle"
+      ]
     },
     {
       "id": "6",
       "name": "Eevee",
       "img": "/sources/eevee.jpg",
-      "description":"Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
-      "comment": "Cute!"
+      "description": "Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
+      "comment": [
+        "Cute!"
+      ]
     },
     {
       "id": "7",
       "name": "Porygon",
       "img": "/sources/porygon.jpg",
-      "description":"A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
-      "comment": "Pokemon made out of programming code"
+      "description": "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+      "comment": [
+        "Pokemon made out of programming code"
+      ]
     },
     {
       "id": "8",
       "name": "Ditto",
       "img": "/sources/ditto.jpg",
-      "description":"Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
-      "comment": "I can change into anything"
+      "description": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+      "comment": [
+        "I can change into anything"
+      ]
     },
     {
       "id": "9",
       "name": "Sandslash",
       "img": "/sources/sandlash.jpg",
-      "description":"Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
-      "comment": "Sandy"
+      "description": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+      "comment": [
+        "Sandy"
+      ]
     },
     {
       "id": "10",
       "name": "Zapdos",
       "img": "/sources/zapdos.jpg",
-      "description":"A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
-      "comment": "Spikey"
+      "description": "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+      "comment": [
+        "Spikey"
+      ]
     }
   ]
 }
