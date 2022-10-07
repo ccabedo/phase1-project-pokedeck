@@ -9,40 +9,45 @@ const renderData = (pokemon) => {
     const li = document.createElement("li")
     li.innerText = pokemon.name
     ul.append(li)
-    li.addEventListener("click", () => showPokemon(pokemon))
+    li.addEventListener("click", () => {
+        showPokemon(pokemon)
+    })
 }
 
 const imageContainer = document.querySelector(".image-container")
 const image = document.createElement("img")
 imageContainer.append(image)
-
+const description = document.querySelector("#description")
+const commentUl = document.querySelector("#comment-ul")
+const form = document.querySelector(".input-group")
 
 function showPokemon(param){
     const name = document.querySelector("#pokemon-name")
     name.innerText = param.name
-
     image.src = param.img
-
-    const description = document.querySelector("#description")
     description.innerText = param.description
-    
-    const comment = document.querySelector("#comment-list")
-    comment.innerText = param.comment
+    commentUl.innerHTML = ""; // clearing the UL
 
-    const form = document.querySelector(".input-group")
-    form.addEventListener("submit", e => {
-        e.preventDefault()
-        console.log(e)
-
-        const commentUl = document.querySelector("#comment-ul")
-        const communtli = document.createElement("li")
-        commentUl.append(communtli)
-
-        communtli.innerText = document.querySelector("#input-value").value
-    
+    param.comment.forEach(comm => {
+        const newComment = document.createElement("li")
+        newComment.innerText = comm
+        commentUl.append(newComment)
     })
-    }
+}
+    
+form.addEventListener("submit", e => {
+    e.preventDefault()
+    addNewComment(e.target['input-value'].value)
+    //const newCommentArray = [...param.comment, e.target['input-value'].value];
+    //debugger;
+    //postToJSON(newCommentArray, param.id);
+})
 
+function addNewComment(newInput) {
+    const commentli = document.createElement("li")
+    commentli.innerText = newInput
+    commentUl.append(commentli)
+}
 
 const button = document.querySelector("#click")
 button.addEventListener("click", randomPokemon)
@@ -62,3 +67,19 @@ function randomPokemon(){
         
     })
 }
+
+// function postToJSON(commentArr, pokemonID) {
+//     const configObj = {
+//         method: "PATCH",
+//         headers: {
+//             "Content-Type": "application/json",
+//             Accept: "application/json"
+//         },
+//         body: JSON.stringify({
+//             "comment": commentArr
+//         })
+//     }
+//     fetch(`${url}/${pokemonID}`, configObj)
+//     .then(res => res.json())
+//     .then(console.log)
+// }
