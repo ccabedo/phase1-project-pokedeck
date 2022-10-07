@@ -1,9 +1,9 @@
+
 body {
     background-image: url("https://www.wallpapertip.com/wmimgs/81-814414_gotta-catch-em-all-649-pokemon-poster-by.jpg");
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 100vh;
+    
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Press Start 2P', cursive;
 }
@@ -11,6 +11,7 @@ body {
 #header {
     background-color: RGB(251 27 27);
     height: 80px;
+    border-radius: 10px;
 }
 
 #top-between{
@@ -18,17 +19,20 @@ body {
 }
 
 #top-row {
-    background-color: white;
+    background-color:;
     height: 600px;
 
 }
+c
 
 #side-nav {
-    background-color: #0075BE;
+    color: #0075BE;
 }
 
+
 #card-nav {
-    background-color: #D5A100;
+    background-color: RGB(145 145 145);
+    border-radius: 20px;
 }
 
 #middle-between {
@@ -40,20 +44,27 @@ body {
 }
 
 #button-nav {
-    background-color: #0075BE;
+    background-color: RGB(27 83 186);
+    border-radius: 10px;
+    text-align: center;
 }
 
 #form-nav {
-    background-color: #D5A100;
+    background-color: RGB(251 27 27);
+    border-radius: 10px;
+    left: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center
 }
 
 #bottom-between {
-    background-color: :
-    height: 50px
+    background-color: ;
+    height: 50px;
 }
 #footer {
-    background-color: #0A285F;
-    height: 80px
+    background-color: RGB(251 27 27);
+    height: 80px;
 
 }
 
@@ -65,23 +76,58 @@ body {
     background-repeat: no-repeat;
 }
 
-button {
+#btn-btn-light {
     cursor: pointer;
+    margin: -20px -50px; 
+    position:relative;
+    
 }
 
-#col-top-1 {
-    background: transparent;
+#btn-btn-light:hover {
+    background-color: RGB(145 145 145);
 }
 
-#col-top-3 {
-    background-color: transparent;
-}
-
-#col-top-2 {
-    background-color: transparent;
-}
+#btn-btn-light:active {
+    background-color: RGB(230 188 47);
+    transform: translateY(2px);
+  }
 
 #submitbutton {
     color: white;
     background-color: black;
+}
+
+#submitbutton:hover {
+    background-color: RGB(145 145 145);
+    color: black;
+}
+
+#submitbutton:active {
+    background-color: RGB(230 188 47);
+    transform: translateY(2px);
+  }
+
+#col-top-1 {
+    background: RGB(223 223 223);
+    border-radius: 10px;
+}
+
+#col-top-3 {
+    background-color: RGB(223 223 223);
+    border-radius: 10px;
+}
+
+#col-top-2 {
+    background-color: ;
+    border-radius: 10px;
+}
+
+#bottom-row {
+    background-color: transparent;
+    border-radius: 200px;
+}
+
+#input-group {
+    padding: 20px;
+    left: 20px;
 }
